@@ -31,3 +31,22 @@ nav#menu{
 main{
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* TABLETS */
+    article#imagem-s{
+       background-image: url(../imagens/people-smile.jpg);
+       background-repeat: no-repeat;
+       background-position: cover;
+       height: 600px;
+       width: 600px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){/* LAPTOPS */
+
+}
+
+@media screen and (min-width: 1400px){ /* DESKTOPS AND LARGE SCREENS */
+
+}
