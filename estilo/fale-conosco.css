@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+
+}
+
+h1{
+    margin: 20px 5px;
+} 
+
+h1#titulo{
+    margin-top: 150px;
+}
+
+nav#menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+main{
+
+}
