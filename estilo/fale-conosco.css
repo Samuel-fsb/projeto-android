@@ -11,7 +11,9 @@ body{
 }
 
 header{
-
+    height: 200px;
+    background-image: linear-gradient();
+    background-color: rgba(40, 78, 252, 0.873);
 }
 
 h1{
@@ -32,6 +34,15 @@ main{
 
 }
 
+article#imagem-s{
+    background-image: url(../imagens/people-smile-mobile.jpg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px){ /* TABLETS */
     article#imagem-s{
        background-image: url(../imagens/people-smile.jpg);
@@ -44,9 +55,26 @@ main{
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){/* LAPTOPS */
+    article#imagem-s{
+        background-image: url(../);
+        height: 300px;
+        width: 300px;
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
 
+    section#people{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (min-width: 1400px){ /* DESKTOPS AND LARGE SCREENS */
-
+    article#imagem-s{
+        background-image: url(../);
+        height: 300px;
+        width: 300px;
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
 }
