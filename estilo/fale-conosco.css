@@ -7,11 +7,12 @@
 }
 
 body{
-
+ background-color: ;
 }
 
 header{
-
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(40, 78, 252, 0.873) , red);
 }
 
 h1{
@@ -28,8 +29,38 @@ nav#menu{
     gap: 10px;
 }
 
-main{
+nav > a{
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(9, 9, 219);
+    text-decoration: none;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+    padding: 10px;
+}
 
+nav > a:hover{
+    background-color: aqua;
+    color: green;
+    text-decoration: underline;
+}
+
+main{
+    margin-top: -150px;
+}
+
+article#imagem-s{
+    background-image: url(../imagens/people-smile-mobile.jpg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    border-radius: 15px 0px;
+}
+
+section#people{
+    margin-top: 60px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /* TABLETS */
@@ -44,9 +75,27 @@ main{
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){/* LAPTOPS */
+    article#imagem-s{
+        background-image: url(../imagens/people-smile.jpg);
+        height: 600px;
+        width: 600px;
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
 
+    section#people{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }
 
 @media screen and (min-width: 1400px){ /* DESKTOPS AND LARGE SCREENS */
-
+    article#imagem-s{
+        background-image: url(../);
+        height: 300px;
+        width: 300px;
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
 }
